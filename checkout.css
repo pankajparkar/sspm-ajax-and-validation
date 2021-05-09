@@ -1,0 +1,19 @@
+#myntra-app {
+    margin: 0;
+}
+
+.stepper-color {
+    color: white;
+    width: 100%;
+}
+
+.delivery-text {
+    width: 100%;
+}
+
+.enter-your-address-btn {
+    float: right;
+}
+.summary-total {
+    float: right;
+}

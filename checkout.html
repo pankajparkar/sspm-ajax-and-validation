@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <title>Myntra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./checkout.css" />
+</head>
+
+<body id="myntra-app" class="test test1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <b>Myntra</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="text-center stepper-color">
+            <span>Bag</span>
+            <span> ----- </span>
+            <span>Address</span>
+            <span> ----- </span>
+            <span>Payment</span>
+        </div>
+
+    </nav>
+    <div class="alert alert-success text-center" role="alert">
+        As per guidelines, we are only delivering essentials in govt-specified pincodes
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="delivery-text">
+                            Check delivery time & services.
+                            <button type="button" class="btn btn-outline-primary enter-your-address-btn">Enter your address</button>
+                        </div>
+                    </div>
+                  </div>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="bi bi-percent"></i>
+                            Available Offers
+                        </h5>
+                        <p class="card-text">
+                            10% Cashback on Slice Visa Card on a min spend of Rs 500. TCA
+                        </p>
+                        <a class="btn btn-primary card-link" data-toggle="collapse" href="#collapseExample">
+                            Show More
+                        </a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <div>
+                                    <li class="offersV2-base-message "><span>10% Cashback on Slice Visa Card on a min spend of Rs 500. TCA</span></li>
+                                    <li class="offersV2-base-message "><span>5% Unlimited Cashback on Flipkart Axis Bank Credit Card. TCA</span></li>
+                                    <li class="offersV2-base-message "><span>10% Cashback upto Rs 250 on a minimum spend of Rs 1,000 with PayZapp.
+                                            TCA</span></li>
+                                    <li class="offersV2-base-message "><span>Upto Rs 500 Cashback on Mobikwik wallet transaction of min Rs 999.Use Code
+                                            MBK500 on Mobikwik.TCA</span></li>
+                                    <li class="offersV2-base-message "><span>Flat Rs 200 Cashback on first Airtel Payments Bank transaction on Myntra on
+                                            a min spend of Rs 2000. TCA</span></li>
+                                    <div class="offersV2-base-more">Show Less<svg xmlns="http://www.w3.org/2000/svg" width="7" height="12"
+                                            viewBox="0 0 7 12" class="offersV2-base-arrowIcon" style="transform: rotate(-90deg);">
+                                            <path fill-rule="evenodd"
+                                                d="M6.797 5.529a.824.824 0 0 0-.042-.036L1.19.193a.724.724 0 0 0-.986 0 .643.643 0 0 0 0 .94L5.316 6 .203 10.868a.643.643 0 0 0 0 .938.724.724 0 0 0 .986 0l5.566-5.299a.644.644 0 0 0 .041-.978">
+                                            </path>
+                                        </svg></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-primary mb-2" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+                <h3>My Shopping Bag (Item 1)</h3>
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="alert alert-primary mb-2" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Checkout</h5>
+                      <h6>Product details</h6>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item summary-item">
+                            Total MRP
+                            <span class="summary-total">599</span>
+                        </li>
+                        <li class="list-group-item summary-item">
+                            Discount on MRP
+                            <span class="summary-total">300</span>
+                        </li>
+                        <li class="list-group-item summary-item">
+                            Coupon Discount
+                            <span class="summary-total">0</span>
+                        </li>
+                        <li class="list-group-item summary-item">
+                            Convenience Fee
+                            <span class="summary-total">30</span>
+                        </li>
+                        <li class="list-group-item summary-item">
+                            <b>Total</b>
+                            <span class="summary-total">
+                                <strong>329</strong>
+                            </span>
+                        </li>
+                      </ul>
+                      <a href="#" class="card-link">Proceed</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./checkout.js"></script>
+</body>
+
+</html>
